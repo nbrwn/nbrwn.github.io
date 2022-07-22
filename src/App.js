@@ -1,11 +1,21 @@
-import logo from './logo.svg';
+import cat from './imgs/picasso_cat.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Nolan Brown</h1>
-      <h2>God's Perfect Coder.</h2>
+      <div class = "imagewrap">
+        <img src = {cat} alt = "a weird cat" />
+      </div>
+
+      <div class = "text">
+        <h1 class="header">
+          Nolan Brown
+        </h1>
+        <p1 class = "subtitle">
+          God's Perfect Coder
+        </p1>
+      </div>
     </div>
   );
 }
